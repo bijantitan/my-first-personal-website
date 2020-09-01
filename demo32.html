@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin: 0%;
+        }
+
+        .navbar {
+            background-color: rgb(21, 21, 124);
+            color: white;
+            position: sticky;
+
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            padding: 15px 20px;
+
+        }
+
+        ul {
+            overflow: auto;
+            margin: 0;
+        }
+
+        .me {
+            height: 480px;
+            background-color: teal;
+            display: flex;
+            margin: 0px;
+            padding: 80px;
+
+        }
+
+        .img {
+            display: block;
+            height: 400px;
+            width: 400px;
+            border-radius: 200px;
+            margin: 40px 0px;
+
+        }
+
+        .about {
+            padding: 80px 110px;
+            text-align: left;
+            font-size: 20px;
+        }
+
+        h2 {
+            margin: 10px;
+        }
+
+        .det {
+            /* border: 4px solid green; */
+            text-align: center;
+            padding: 20px 90px;
+        }
+
+
+        .dettils {
+            margin: auto;
+        }
+
+        .form {
+            padding: 80px 20px;
+
+        }
+
+        label {
+            padding: 10px 00px;
+        }
+
+        #d {
+            font-size: 40px;
+        }
+
+        footer {
+            background-color: brown;
+            padding: 15px;
+
+
+        }
+
+        .a {
+            text-decoration: none;
+            color: rgb(176, 158, 236);
+            font-size: 20px;
+        }
+
+        .b {
+            padding: 30px 100px;
+        }
+
+        .con {
+            text-align: center;
+
+
+
+        }
+
+        .con a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bolder;
+            padding: 5px;
+            font-size: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul id="list">
+                <li>Home</li>
+                <li>About Me</li>
+                <li>My skills</li>
+                <li>Contuct Me</li>
+            </ul>
+        </div>
+        <div class="me" id="about">
+            <div class="about">
+                <h2>About Me</h2>
+                <div class="det">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, aliquid? Inventore perspiciatis enim
+                    eaque, odit quidem facilis vero laudantium sit ipsa, natus quas nisi id expedita obcaecati animi
+                    doloremque asperiores?
+                </div>
+            </div>
+            <div><img src="won.JPG" alt="" class="img" id="img1"></div>
+        </div>
+
+        <div class="me" id="skill">
+            <div><img src="wab3.jpeg" alt="" class="img" id="img2"></div>
+            <div class="about">
+                <h2>My Skills</h2>
+                <div class="det">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur reiciendis voluptate
+                    perferendis culpa cumque tempora nemo nisi provident adipisci beatae iure totam, corrupti minima
+                    laborum ut delectus aspernatur qui voluptatum.
+                </div>
+            </div>
+        </div>
+
+        <div class="me" id="form">
+            <div class="dettils">
+                <div id="d">Your Dettils</div>
+                <form action="" class="form">
+                    <label for="Name">Name : </label>
+                    <div>
+                        <input type="text" placeholder="Enter your Name">
+                    </div>
+                    <br>
+                    <label for="email">Email Id :</label>
+                    <div>
+                        <input type="text" placeholder="example@gmail.com">
+                    </div>
+                    <br>
+                    <label for="phone">Phone no. :</label>
+                    <div>
+                        <input type="text" placeholder="1234567890">
+                    </div>
+                    <br>
+                    <label for="gander">Gander :</label>
+                    <div>
+                        male : <input type="radio">
+                        female : <input type="radio">
+                    </div>
+                    <br>
+                    <!-- <label for="yourself">Write About Yourself :</label>
+                    <div><textarea name="yourself" id="" cols="30" rows="10"></textarea></div>
+                    <br> -->
+                    <div>
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <ul id="list2">
+                <li class="b"><a href="Facebook.com" class="a">Facebook</a></li>
+                <li class="b"><a href="twitter.com" class="a">Twitter</a></li>
+                <li class="b"><a href="instagram.com" class="a">Instagram</a></li>
+                <li class="b"><a href="youtube.com" class="a">youtube</a></li>
+            </ul>
+        </div>
+        <div class="con">
+            <button><a href="bijanroy15@gmail.com">CONTUCT</a></button>
+        </div>
+    </footer>
+</body>
+
+</html>
